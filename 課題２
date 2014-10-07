@@ -7,18 +7,10 @@ var answer1;
 function add(a,b){
 return a+b;
 }
-//入力の設定
-function add1(beforeA,beforeB){
-var result1;
-a = beforeA;
-b = beforeB;
-result1 = add(a,b);
-return result1;
-}
 //入力
 inputA = 50;//ここを書き換える
 inputB = 100;//ここを書き換える
-answer1 = add1(inputA,inputB);
+answer1 = add(inputA,inputB);
 alert(inputA+"と"+inputB+"の和は"+answer1);
 //2. 引数を二つ取り、この二つを掛けた値を返す関数。
 var c,d;
@@ -28,14 +20,6 @@ var answer2;
 //かけ算の計算の設定
 function multiply(c,d){
 return c*d;
-}
-//入力の設定
-function multiply1(beforeC,beforeD){
-var result2;
-c = beforeC;
-d = beforeD;
-result2 = multiply(c,d);
-return result2;
 }
 //入力
 inputC = 50;//ここを書き換える
